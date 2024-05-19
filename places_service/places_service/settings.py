@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'places', # Add the places app to the list of installed apps
 ]
 
 MIDDLEWARE = [
